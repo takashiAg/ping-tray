@@ -1,0 +1,17 @@
+{
+  "name": "ping-menubar",
+  "version": "0.1.0",
+  "description": "ネットワークの状況をメニューバーに表示するアプリです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ping",
+    "mac",
+    "osx",
+    "electron"
+  ],
+  "author": "ryosuke ando <ryo@ando.link>",
+  "license": "ISC"
+}
