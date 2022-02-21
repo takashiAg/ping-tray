@@ -2,9 +2,10 @@
   "name": "ping-menubar",
   "version": "0.1.0",
   "description": "ネットワークの状況をメニューバーに表示するアプリです。",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "keywords": [
     "ping",
@@ -13,5 +14,12 @@
     "electron"
   ],
   "author": "ryosuke ando <ryo@ando.link>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "electron": "^17.0.1"
+  },
+  "dependencies": {
+    "ping": "^0.4.1"
+  }
 }
